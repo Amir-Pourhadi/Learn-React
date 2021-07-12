@@ -1,8 +1,10 @@
 export const AboutPage = () => {
 	return (
 		<>
-			<h2>About Page</h2>
-			<p>IMD is the best place in the world!</p>
+			<div className="bg-secondary w-25 p-3 m-3 rounded-pill text-center">
+				<h1>About Page</h1>
+			</div>
+			<strong>IMD is the best place in the world!</strong>
 			<p>The heaven of coders!</p>
 		</>
 	);
