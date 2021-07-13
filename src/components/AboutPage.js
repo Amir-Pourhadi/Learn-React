@@ -1,7 +1,7 @@
 export const AboutPage = () => {
 	return (
 		<>
-			<div className="bg-secondary w-25 p-3 m-3 rounded-pill text-center">
+			<div className="bg-secondary w-25 p-3 m-3 rounded-pill text-center mx-auto">
 				<h1>About Page</h1>
 			</div>
 			<strong>IMD is the best place in the world!</strong>

@@ -9,7 +9,7 @@ export const CoursePage = () => {
 
 	return (
 		<main>
-			<div className="bg-secondary w-25 p-3 m-3 rounded-pill text-center">
+			<div className="bg-secondary w-25 p-3 m-3 rounded-pill text-center mx-auto">
 				<h1>Course Page</h1>
 			</div>
 			<table className="table table-hover">
