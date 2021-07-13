@@ -1,5 +1,6 @@
 import { AboutPage } from "./AboutPage";
 import { Header } from "./common/Header";
+import { CoursePage } from "./CoursePage";
 import { HomePage } from "./HomePage";
 
 export const App = () => {
@@ -8,7 +9,7 @@ export const App = () => {
 	return (
 		<main className="container-fluid">
 			<Header />
-			{route === "/about" ? <AboutPage /> : <HomePage />}
+			{route === "/about" ? <AboutPage /> : route === "/courses" ? <CoursePage /> : <HomePage />}
 		</main>
 	);
 };
