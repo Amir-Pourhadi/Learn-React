@@ -5,8 +5,6 @@ export const HomePage = () => {
 				<h1>Welcome to IMD!</h1>
 			</div>
 			<strong>Here you can learn coding EZ!</strong>
-			<br />
-			<a href="/about">About Us!</a>
 		</>
 	);
 };
