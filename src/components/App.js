@@ -1,3 +1,4 @@
+import { Route } from "react-router-dom";
 import { AboutPage } from "./AboutPage";
 import { Header } from "./common/Header";
 import { CoursePage } from "./CoursePage";
@@ -9,7 +10,9 @@ export const App = () => {
 	return (
 		<main className="container-fluid">
 			<Header />
-			{route === "/about" ? <AboutPage /> : route === "/courses" ? <CoursePage /> : <HomePage />}
+			<Route path="/" component={HomePage} />
+			<Route path="/about" component={AboutPage} />
+			<Route path="/courses" component={CoursePage} />
 		</main>
 	);
 };
