@@ -16,20 +16,6 @@ export const CourseList = ({ courses }) => {
 						<td>{slug}</td>
 					</tr>
 				))}
-				<table>
-					<thead>
-						<tbody>
-							<tr>
-								<td>
-									wtf is going on here?
-									shit hsit shit
-									plz be ok
-									
-								</td>
-							</tr>
-						</tbody>
-					</thead>
-				</table>
 			</tbody>
 		</table>
 	);
