@@ -10,7 +10,7 @@ export const App = () => {
 	return (
 		<main className="container-fluid">
 			<Header />
-			<Route path="/" component={HomePage} />
+			<Route exact path="/" component={HomePage} />
 			<Route path="/about" component={AboutPage} />
 			<Route path="/courses" component={CoursePage} />
 		</main>
