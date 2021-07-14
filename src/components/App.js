@@ -1,8 +1,9 @@
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { AboutPage } from "./AboutPage";
 import { Header } from "./common/Header";
 import { CoursePage } from "./CoursePage";
 import { HomePage } from "./HomePage";
+import { PageNotFound } from "./PageNotFound";
 
 export const App = () => {
 	const route = window.location.pathname;
@@ -10,9 +11,12 @@ export const App = () => {
 	return (
 		<main className="container-fluid">
 			<Header />
-			<Route exact path="/" component={HomePage} />
-			<Route path="/about" component={AboutPage} />
-			<Route path="/courses" component={CoursePage} />
+			<Switch>
+				<Route exact path="/" component={HomePage} />
+				<Route path="/about" component={AboutPage} />
+				<Route path="/courses" component={CoursePage} />
+				<Route component={PageNotFound} />
+			</Switch>
 		</main>
 	);
 };
