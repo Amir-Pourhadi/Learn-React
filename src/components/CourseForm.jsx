@@ -1,17 +1,17 @@
-export const CourseForm = () => {
+export const CourseForm = ({ course, handleChange }) => {
 	return (
 		<form>
 			<div className="form-group">
 				<label htmlFor="title">Title</label>
 				<div className="field">
-					<input id="title" type="text" name="title" className="form-control" value="" />
+					<input id="title" type="text" name="title" className="form-control" value="" onChange={handleChange} />
 				</div>
 			</div>
 
 			<div className="form-group">
 				<label htmlFor="author">Author</label>
 				<div className="field">
-					<select id="author" name="authorId" value="" className="form-control">
+					<select id="author" name="authorId" value="" className="form-control" onChange={handleChange}>
 						<option value="" />
 						<option value="1">Jamshid</option>
 						<option value="2">Jafar</option>
@@ -22,7 +22,7 @@ export const CourseForm = () => {
 			<div className="form-group">
 				<label htmlFor="category">Category</label>
 				<div className="field">
-					<input type="text" id="category" name="category" className="form-control" value="" />
+					<input type="text" id="category" name="category" className="form-control" value="" onChange={handleChange} />
 				</div>
 			</div>
 
