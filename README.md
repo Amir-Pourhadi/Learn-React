@@ -1,4 +1,13 @@
-[![wakatime](https://wakatime.com/badge/github/Amir-Pourhadi/Learn-React.svg)](https://wakatime.com/badge/github/Amir-Pourhadi/Learn-React)
+<div align="center">
+
+  [![wakatime](https://wakatime.com/badge/github/Amir-Pourhadi/Learn-React.svg)](https://wakatime.com/badge/github/Amir-Pourhadi/Learn-React)
+  [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Amir-Pourhadi_Learn-React&metric=ncloc)](https://sonarcloud.io/dashboard?id=Amir-Pourhadi_Learn-React)
+  [![CodeFactor](https://www.codefactor.io/repository/github/amir-pourhadi/learn-react/badge)](https://www.codefactor.io/repository/github/amir-pourhadi/learn-react)  
+  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Amir-Pourhadi_Learn-React&metric=alert_status)](https://sonarcloud.io/dashboard?id=Amir-Pourhadi_Learn-React)
+  [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Amir-Pourhadi_Learn-React&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Amir-Pourhadi_Learn-React)
+  [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Amir-Pourhadi_Learn-React&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=Amir-Pourhadi_Learn-React)
+  [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Amir-Pourhadi_Learn-React&metric=security_rating)](https://sonarcloud.io/dashboard?id=Amir-Pourhadi_Learn-React)
+</div>
 
 # Getting Started with Create React App
 
